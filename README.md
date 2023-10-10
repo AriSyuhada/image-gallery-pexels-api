@@ -1,4 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**The project development is on-going**. You can review the app from [Vercel](https://image-gallery-pexels-api.vercel.app/) platform.
 
 ## Getting Started
 
