@@ -14,7 +14,7 @@ export default async function Gallery({ topic } : Props) {
 
   const images: ImagesResponse | undefined = await fetchImages(url);
 
-  if (!images) return <h2>No Images Found</h2>;
+  if (!images) return <h2 className="flex h-[calc(100vh-124px)] sm:h-[calc(100vh-76px)] justify-center items-center">No Images Found</h2>;
 
   const imagesWithBlur = await addBlurredDataUrls(images);
 
