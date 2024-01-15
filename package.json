@@ -14,6 +14,7 @@
     "plaiceholder": "^3.0.0",
     "react": "latest",
     "react-dom": "latest",
+    "react-icons": "^5.0.1",
     "zod": "^3.22.2"
   },
   "devDependencies": {

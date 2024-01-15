@@ -13,7 +13,7 @@ export default function ImageContainer({ imageData }: Props) {
 
   return (
     <div 
-      className="w-[250px]"
+      className="w-[250px] justify-self-center"
       style={{ gridRow: `span ${imageSpans}` }}
     >
       <Link href={imageData.url} target="_blank" className="grid place-content-center">
@@ -21,8 +21,8 @@ export default function ImageContainer({ imageData }: Props) {
           <Image 
             src={imageData.src.large}
             alt={imageData.alt}
-            width={250}
-            height={galleryHeight}
+            width={imageData.width}
+            height={imageData.height}
             // sizes="(min-width: 1280px) 278px, (min-width: 1040px) calc(12.73vw + 118px), (min-width: 800px) 33.18vw, (min-width: 540px) 50vw, calc(100vw - 16px)"
             sizes="250px"
             placeholder="blur"
